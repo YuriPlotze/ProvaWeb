@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f3ece7; 
+    color: #4a2c2a; 
+    margin: 0;
+}
+
+header {
+    background: #4a2c2a; 
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 1.8em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #795548;
+}
+
+footer {
+    background: #4a2c2a;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 0.9em;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin: 5px 0;
+}
+
+main img {
+    border: 2px solid #4a2c2a;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cadastro {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.cadastro h2,
+.cadastro p,
+.cadastro form {
+    max-width: 600px;
+    margin: 0 auto;
+}
